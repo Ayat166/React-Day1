@@ -1,8 +1,43 @@
-# React + Vite
+# Simple Sign-Up Form Using React  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a basic sign-up form built using React. The source code is in `src/App.jsx`.
 
-Currently, two official plugins are available:
+## Screenshot  
+![Sign-Up Form](public/image.png)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features  
+- Name, email, and password fields  
+- Gender selection using radio buttons  
+- Styled using CSS classes  
+
+## Installation & Usage  
+1. Clone this repository:  
+   ```sh
+   git clone https://github.com/Ayat166/React-Day1.git
+   cd React-Day1
+   ```
+2. Install dependencies:  
+   ```sh
+   npm install
+   ```
+3. Start the development server:  
+   ```sh
+   npm run dev
+   ```
+
+## File Structure  
+```
+my-app/
+│── public/
+│   ├── image.png   # Screenshot used in README
+│── src/
+│   ├── App.jsx     # Main application file
+│   ├── App.css     # Styling for the form
+│   ├── main.jsx    # Entry point
+│── package.json
+│── README.md
+```
+
+## License  
+This project is open-source and available under the MIT License.
+
